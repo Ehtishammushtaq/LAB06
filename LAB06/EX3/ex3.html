@@ -1,0 +1,55 @@
+
+<!Doctype HTML>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<link href='styles.css' type='text/css' rel='stylesheet'/>
+		<script src='Bain.js' type='text/javascript'></script>
+	</head>
+	<body>
+		<form onsubmit='return brain()' action='Backend.php' method='post'>
+			<h2>Online Gaming Store</h2><br>
+			
+			
+			<div>
+			<input type='email' name='email' placeholder='Email'  autocomplete='on' id='email' required autofocus>
+			</div>
+			<br>
+			<div>
+			<input type='password' name='password' id='passwordid' placeholder='Password' required>
+			
+		</div>
+		<br>
+			<div>
+			    <p>PS5  &nbsp; Price: $559.99<br>
+			    <input placeholder="Quantity" type='number' min='0' name='ps5' id='ps5' required><br></p>
+			</div>
+
+			<div>
+				<p>Xbox Series X &nbsp; Price: $547.98<br> 
+			    <input  placeholder="Quantity"  type='number' min='0' name='xbox' id='xbox' required><br></p>
+			</div>
+
+			<div>
+			    <p>Nintendo Switch &nbsp; Price: $299.99<br>
+			    <input placeholder="Quantity" type='number' min='0'  name='nintendo' id='nintendo' required><br></p> 
+			</div>
+			<br>
+
+			<h3>Shipping</h3>
+			
+			<input type='radio' name='shipping' value='Free' id='ship' required>
+			<label for="Free">Free Shipping</label>
+			<input type='radio' name='shipping' value='Standard' id='ship'required>
+			<label for="Standard">$5.00 3 Day Shipping</label>
+			<input type='radio' name='shipping' value='Overnight'id='ship' required>
+			<label for="Overnight">$50.00 Overnight Shipping</label>
+			<br>
+			<br>
+			<input type='submit'><br>
+<br>
+
+			<input type='reset'>
+		</form>
+	</body>
+</html>

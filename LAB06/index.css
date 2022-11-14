@@ -1,0 +1,40 @@
+/* CSS Document */
+body{
+	background-image:url("backgroundmain.png");
+	background-attachment:fixed;
+	background-position:center;
+	margin:0;
+	padding:0;
+	height:100vh;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+	background-color:grey
+}
+#button1, #button2, #button3, #button4{
+	font-family:"Poppins", sans-serif;
+	font-size:15px;
+	font-weight: bold;
+	background:#b380ff;
+	padding:20px;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#fff;
+	border-radius: 10px;
+	cursor:pointer;
+}	
+#button1:hover, #button2:hover, #button3:hover, #button4:hover{
+	font-family:"Poppins", sans-serif;
+	font-size:18px;
+	font-weight: bold;
+	background:gray;
+	padding:20px;
+	text-align:center;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#fff;
+	border-radius: 5px;
+	cursor:pointer;
+}
+	
