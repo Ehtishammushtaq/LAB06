@@ -11,7 +11,7 @@ $xboxCost     = 547.98;
 $nintendoCost = 299.99;
 
 $ps5Total      = $ps5 * $ps5Cost;
-$xboxTotal     = $xbox2 * $xboxCost;
+$xboxTotal     = $xbox * $xboxCost;
 $nintendoTotal = $nintendo * $nintendoCost;
 
 $shipping     = $_POST["shipping"];
